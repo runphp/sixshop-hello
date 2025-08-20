@@ -1,0 +1,31 @@
+{
+  "name": "six-shop/hello",
+  "description": "hello扩展",
+  "type": "sixshop-extension",
+  "keywords": [
+    "sixshop",
+    "thinkphp"
+  ],
+  "require": {
+    "php": ">=8.3",
+    "six-shop/core": "^v0.3"
+  },
+  "authors": [
+    {
+      "name": "hui he",
+      "email": "runphp@qq.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SixShop\\Hello\\": "src"
+    }
+  },
+  "extra": {
+    "sixshop": {
+      "id": "hello",
+      "class": "SixShop\\Hello\\Extension"
+    }
+  }
+}
