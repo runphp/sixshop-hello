@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace SixShop\hello\Controller;
+namespace SixShop\Hello\Controller;
 
 use SixShop\Core\Helper;
 use think\Response;

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace SixShop\hello;
+namespace SixShop\Hello;
 
 use SixShop\Core\ExtensionAbstract;
 
